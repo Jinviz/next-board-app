@@ -17,29 +17,31 @@
   background-color: aqua;
 
   &__aside {
-      width: 282px;
-      height: 100%;
+    width: 282px;
+    height: 100%;
 
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 
-      padding: 20px 24px;
-      gap: 12px;
+    padding: 20px 24px;
+    gap: 12px;
 
-      background-color: #ffffff;
-      border-left: 1px solid #f4f4f5;
+    background-color: #ffffff;
+    border-left: 1px solid #f4f4f5;
+    border-right: 1px solid #f4f4f5;
   }
+
   &__main {
-      width: calc(100% - 282px);
-      height: 100%;
+    width: calc(100% - 282px);
+    height: 100%;
 
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 
-      background-color: #f9f9f9;
-      border-right: 1px solid #f4f4f5;
+    background-color: #f9f9f9;
+    border-right: 1px solid #f4f4f5;
   }
 }
