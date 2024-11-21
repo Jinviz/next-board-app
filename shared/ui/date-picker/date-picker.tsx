@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { format } from "date-fns";
 import { cn } from "@/lib/utils";
-import { Button, Calendar, Popover, PopoverContent, PopoverTrigger } from "@/components/ui";
+import { Button, Calendar, Popover, PopoverContent, PopoverTrigger } from "@/shared/ui";
 import { Calendar as CalendarIcon } from "lucide-react";
 
 interface Props {
@@ -11,7 +11,7 @@ interface Props {
 }
 
 function BasicDatePicker({ isReadOnly }: Props) {
-  const [date, setDate] = useState<Date>();
+  const [date, setDate] = useState<Date | undefined>();
 
   return (
     <Popover>

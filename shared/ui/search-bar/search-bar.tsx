@@ -2,6 +2,7 @@ import * as React from "react";
 
 import { cn } from "@/lib/utils";
 import { SearchIcon } from "lucide-react";
+
 export type InputProps = React.InputHTMLAttributes<HTMLInputElement>;
 
 const SearchBar = React.forwardRef<HTMLInputElement, InputProps>(({ className, ...props }, ref) => {
