@@ -1,2 +1,3 @@
-export { CardBoard } from "./board/CardBoard";
-export { MarkdownEditorDialog } from "./board/ME-Dialog";
+export { AlertPopup } from "./common/AlertPopup";
+export { CardBoard } from "./board/ui/CardBoard";
+export { MarkdownEditorDialog } from "./board/ui/ME-Dialog";
